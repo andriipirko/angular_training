@@ -1,0 +1,15 @@
+<div class="authorization-form">
+  <mat-form-field class="example-full-width">
+    <input matInput placeholder="Login" type="text" [(ngModel)]="user.login">
+  </mat-form-field>
+  <mat-form-field class="example-full-width">
+    <input matInput placeholder="Password" type="password" [(ngModel)]="user.password">
+  </mat-form-field>
+  <mat-form-field class="example-full-width">
+    <input matInput placeholder="First name" type="text" [(ngModel)]="user.firstName">
+  </mat-form-field>
+  <mat-form-field class="example-full-width">
+    <input matInput placeholder="Last name" type="text" [(ngModel)]="user.lastName">
+  </mat-form-field>
+  <button mat-raised-button (click)="signUp()">Sign in</button>
+</div>
